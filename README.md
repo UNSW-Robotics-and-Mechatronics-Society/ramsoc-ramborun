@@ -27,18 +27,14 @@ The IDE might pickup your bluetooth ports like mine has. Usually, the names have
 
 Once you have selected the port and Arduino Nano board, upload the code to the Arduino nano: 
 
-<img src="images/Upload.png" width="500px" height="auto">
-
 ## Upload Errors
 **If you have no errors, you are in luck!**
 
 It's always a mission uploading code using the IDE, here's a fix to a common error that occurs:
 
-<img src="images/uploadError.png" width="auto" height="300px"> 
 
 * Run the old bootlegger. Go to Tools > Processor > Atmega328P(Old bootlegger):
 
-  <img src="images/oldBootlegger.png" width="auto" height="300px" alt="old bootlegger">
 
   Now try uploading again, it should work!
 
@@ -47,7 +43,6 @@ It's always a mission uploading code using the IDE, here's a fix to a common err
 # 4. Serial Monitor
 Open the serial monitor to view outputs from ramoRun. Go to Tools > Serial Monitor to open the monitor. 
 
-<img src="images/serialMonitor.png" width="auto" height="300px">
 
 # 5. Its ALIVE
 If you have assembled the RamboRun correctly, the hardware is functional, the wires aren't faulty and the stars align, then your device should display the start screen of RamboRun with wave over the ultrasonic to initiate the game.
