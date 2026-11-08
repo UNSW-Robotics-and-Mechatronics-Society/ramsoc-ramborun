@@ -21,8 +21,6 @@ To do so click on the green button in the top right hand corner that says ` <> c
 # 3. Uploading to the nano
 Once you have completed step 2, connect the devices Arduino nano to your computer and select the board. The port selection is located at the top of the IDE: 
 
-<img src="images/Port.png" width="500px" height="auto">
-
 The IDE might pickup your bluetooth ports like mine has. Usually, the names have "usbserial", "COM2" or similar in it. A trick I use is to disconnect the Arduino, observe which ports are listed, reconnect it, and then identify which new port appears in the list. 
 
 Once you have selected the port and Arduino Nano board, upload the code to the Arduino nano: 
